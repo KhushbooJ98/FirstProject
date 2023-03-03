@@ -1,0 +1,83 @@
+*{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+body{
+    background-color: rgb(98, 139, 139);
+   
+}
+div.header{
+     background-color: rgba(235, 44, 19, 0.288);
+     text-align: center;
+     padding-top: 35px;
+     padding-bottom: 25px;
+     color: rgba(161, 78, 19, 0.753);
+     font-size: 30px;
+     border: 2px solid black;
+   }
+   div.header a{
+    margin-right: 85px;
+    text-decoration: none;
+  }
+  div.header a:hover{
+    background-color: rgb(25, 67, 25);
+    color:rgba(0, 0, 0, 0.39);
+  }
+  div.content{
+    margin-left :100px;
+    margin-right:8px;
+    margin-top: 18px;
+    }
+    div.sidebar{
+        height:100%;
+        width:100px;
+        margin-left: 25px;
+        margin: 25px;
+        border: 1px solid rgba(0, 0, 0, 0.434);
+        padding: 6px 6px 6px 6px ;
+   
+      }
+      div h2{
+        color: rgb(218, 54, 84);
+      }
+     div.sidebar a{
+        text-decoration: none;
+     }
+     div.sidebar h2:hover{
+        background-color: floralwhite;
+        color: black;
+     }
+     div.sidebar a:hover{
+        background-color: floralwhite;
+        color: black;
+     }
+      div.footer{
+         border: 2px solid black;
+     }
+     div.footer h3{
+        margin-left:5%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+
+    }
+    div.footer{
+        background-color: darkolivegreen;
+        color: rgb(31, 4, 4);
+        font-style: italic;
+        font-size: x-large;
+    }
+    @media all and (max-width:200px){
+      h1{
+        background-color: rgba(109, 89, 39, 0.877);
+        font-weight: 800;
+        
+      }
+      
+    }
+   
+    
+
+
+  
+

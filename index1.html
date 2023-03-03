@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us Form!</title>
+    <link rel="stylesheet" href="index1.css">
+</head>
+<body>
+    <div class="container">
+
+    <h1>Contact Us</h1>
+    <p>We'd like to get you in touch and learn more about you. So , send us a message and we'll reply as fast as we can.</p>
+    
+    <form>
+     
+        <label for="fullname" class="name">Enter your name:</label> <br>
+    <input type="text" id="fname" name="fullname" required placeholder="firstname"> <input type="text" id="lname" name="lname" required placeholder="lastname"> <br><br>
+    <label for="mail" class="name">E-mail:</label> <br>
+    <input type="email" id="mail" name="mail" required><br><br>
+    <label for="password" class="name">Password:</label> <br>
+    <input type="password" minlength="7" maxlength="50" required  id="password"> <br><br>
+     <label for="message" class="name">Write message here:</label><br>
+     <textarea name="message" id="message" cols="35" rows="8"></textarea>
+
+            
+
+    </form>
+    </div>
+    <br><br>
+    <h2>
+    <button type="submit" class="sub" id="event" onclick="getElementById('event').innerHTML='Hey Champ!! You have submitted.We will get in touch soon'"> 
+        Submit</button>
+       </h2>
+         <h2><button type="reset" class="sub" id="Event" onclick="getElementById('Event').innerHTML='Opps !! You can try again.'"> Reset
+             </button>
+        </h2>
+</body>
+</html>

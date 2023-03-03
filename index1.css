@@ -1,0 +1,65 @@
+body{
+
+    background-color: rgba(120, 232, 232, 0.331);
+    border:2px solid black ;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 6%;
+}
+div>h1{
+    text-align:center;
+    }
+    div>p{
+        text-align:center;
+        padding-bottom: 1%;
+        font: bolder;
+        border-bottom: 2px dashed black;
+      }
+     
+.name{
+    margin-left: 3%;
+    margin-bottom: 1%;
+    padding-bottom: 1%;
+    font-size: larger;
+   }
+   .sub{
+    background-color: rgba(33, 33, 189, 0.694);
+    padding: 10px;
+    margin-bottom: 2%;
+    margin-left:2% ;
+    font: bolder;
+   }
+   .sub:hover{
+    background-color: blue;
+    color: rgb(1, 15, 27);
+   }
+   #fname{
+    border-radius: 5px;
+    margin: 1% 1% 1% 1%;
+    padding: 1% 1% 1% 1%;
+    background-color: rgba(120, 232, 232, 0.331);
+   }
+   #lname{
+    border-radius: 5px;
+    margin: 1% 1% 1% 1%;
+    padding: 1% 1% 1% 1%;
+    background-color: rgba(150, 231, 231, 0.281);
+   }
+   #mail{
+    border-radius: 5px;
+    margin: 1% 1% 1% 1%;
+    padding: 1% 1% 1% 1%;
+    background-color: rgba(120, 232, 232, 0.331);
+   }
+   #password{
+    border-radius: 5px;
+    margin: 1% 1% 1% 1%;
+    padding: 1% 1% 1% 1%;
+    background-color: rgba(120, 232, 232, 0.331);
+   }
+   #message{
+    border-radius: 5px;
+    margin: 1% 1% 1% 1%;
+    padding: 1% 1% 1% 1%;
+    background-color: rgba(120, 232, 232, 0.331);
+   }
